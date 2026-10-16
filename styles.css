@@ -1,0 +1,112 @@
+/* phone */
+@media (max-width: 768px) {
+    body {
+        margin: 0;
+    }
+
+    .body {
+        width: 100%;
+    }
+}
+
+/* tablet */
+@media (min-width: 769px) and (max-width: 1199px) {
+    body {
+        margin: 0;
+    }
+
+    .body {
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+
+/* desktop */
+@media (min-width: 1200px) {
+    body {
+        margin: 0;
+    }
+
+    .body {
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
+html {
+    background-image: url(./images/NixxiBlur.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0%;
+    font-size: 18px;
+}
+
+.body {
+    background-image: url(./images/Nixxi.PNG);
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    min-height: 100vh;
+    font-family: "Montserrat", sans-serif;
+    color: #F5F6F9;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%, 
+        rgba(0, 0, 0, 0) 40%,
+        rgba(0, 0, 0, 1) 75%,
+        rgba(0, 0, 0, 1) 100%
+    );
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.ofButton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    width: 70%;
+    margin-left: 15%;
+    background-color: #A8CDBB;
+    border: 1px solid #A8CDBB;
+    border-radius: 10px;
+    color: black;
+}
+
+.ofButton:hover {
+    color: #A8CDBB;
+    background-color: black;
+    border: 1px solid #F5F6F9;
+}
+
+h2 {
+    margin: 0 10px;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 60%;
+    margin-left: 20%;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bi {
+    color: #F5F6F9;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
