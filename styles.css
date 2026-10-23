@@ -85,7 +85,33 @@ h1 {
 .ofButton:hover {
     color: #A8CDBB;
     background-color: black;
-    border: 1px solid #F5F6F9;
+    border: 1px solid #A8CDBB;
+}
+
+#of {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.arrow {
+    font-size: 2rem;
+    display: inline-block;
+    animation: arrowMove 0.8s ease-in-out infinite alternate;
+}
+
+@keyframes arrowMove {
+    from {
+        transform: translateX(-4px);
+    }
+    to {
+        transform: translateX(4px);
+    }
+}
+
+.arrow:last-child {
+    animation-direction: alternate-reverse;
 }
 
 h2 {
