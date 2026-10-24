@@ -99,6 +99,7 @@ h1 {
     font-size: 2rem;
     display: inline-block;
     animation: arrowMove 0.8s ease-in-out infinite alternate;
+    padding-bottom: 5px;
 }
 
 @keyframes arrowMove {
